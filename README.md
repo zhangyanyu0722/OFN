@@ -4,21 +4,19 @@
 ![Build Status](https://img.shields.io/badge/License-MIT-green)
 
 ## Authors
-- [John Baillieul] Contact : johnb@bu.edu
-- Yanyu Zhang  Contact : zhangya@bu.edu
+- [John Baillieul] : johnb@bu.edu
+- Yanyu Zhang : zhangya@bu.edu
+- Feuyang Kang 
 
-## Product Definition
+## Install
 
-### Project Mission
+## Resources
 
-### How it works
-
-
-
-## Project Processing
-
+## License
+[MIT License]
 
 ## Updates
 - 4/1/2020 : 
 
 [John Baillieul]:https://www.bu.edu/eng/profile/john-baillieul-ph-d-me-se/
+[MIT License]:https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/LICENSE

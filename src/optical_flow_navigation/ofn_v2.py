@@ -12,7 +12,7 @@ import numpy as np
 # =========================================================================
 
 ## In this v2, you can choose only calculate the featerus in two regions.
-def optical_flow_navigation_v2(video_name, interval=3, speed=1, region=2):
+def ofn_v2(video_name, interval=3, speed=1, region=2):
     cap = cv2.VideoCapture(video_name)
     ret, img = cap.read()
     fps = int(cap.get(cv2.CAP_PROP_FPS))
@@ -147,10 +147,6 @@ def optical_flow_navigation_v2(video_name, interval=3, speed=1, region=2):
 
         cv2.waitKey(1)
 
-# optical_flow_navigation_v2(video_name='video/1.mov', 
-#                             interval=3, 
-#                             speed=1, 
-#                             region=2)
 
 
 

@@ -1,26 +1,22 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
 import io
 import os
 import sys
 from shutil import rmtree
-
 from setuptools import find_packages, setup, Command
 
-# Package meta-data.
-NAME = 'ofn'
-DESCRIPTION = 'optical-flow-navigation'
+NAME = 'optical_flow_navigation'
+DESCRIPTION = 'This package is to use optical flow to navigation'
 URL = 'https://github.com/zhangyanyu0722/optical-flow-navigation'
 EMAIL = 'zhangya@bu.edu'
 AUTHOR = 'Yanyu Zhang'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '0.1.0'
-
 REQUIRED = [
-    "opencv-contrib-python==4.2.0.32",
-    "opencv-python==4.2.0.32", 
-    "numpy==1.18.1",
+    'opencv-contrib-python>=4.2.0.32',
+    'opencv-python>=4.2.0.32',
+    'numpy>=1.18.1'
 ]
 
 EXTRAS = {
@@ -35,7 +31,6 @@ try:
 except FileNotFoundError:
     long_description = DESCRIPTION
 
-# Load the package's __version__.py module as a dictionary.
 about = {}
 if not VERSION:
     project_slug = NAME.lower().replace("-", "_").replace(" ", "_")
@@ -44,10 +39,7 @@ if not VERSION:
 else:
     about['__version__'] = VERSION
 
-
 class UploadCommand(Command):
-    """Support setup.py upload."""
-
     description = 'Build and publish the package.'
     user_options = []
 
@@ -81,7 +73,6 @@ class UploadCommand(Command):
 
         sys.exit()
 
-
 setup(
     name=NAME,
     version=about['__version__'],
@@ -92,12 +83,16 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
+    # packages=find_packages(),
+    package_dir={'': 'src'},
+    packages=['optical_flow_navigation'],
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,
     license='MIT',
     classifiers=[
+        # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
+        'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
@@ -105,7 +100,6 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
-
     cmdclass={
         'upload': UploadCommand,
     },

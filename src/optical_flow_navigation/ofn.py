@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-def optical_flow_navigation(video_name, interval, speed=1):
+def ofn(video_name, interval, speed=1):
     cap = cv2.VideoCapture(video_name)
     ret, img = cap.read()
     fps = int(cap.get(cv2.CAP_PROP_FPS))
@@ -89,12 +89,6 @@ def optical_flow_navigation(video_name, interval, speed=1):
         cv2.imshow('Feature_track', feature)
 
         cv2.waitKey(1)
-
-# optical_flow_navigation(video_name='video/test.mov', 
-                            # interval=3, 
-                            # speed=2)
-
-
 
 
 

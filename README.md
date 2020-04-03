@@ -11,8 +11,7 @@ For more information, [view here].
 - [John Baillieul] : johnb@bu.edu
 - Yanyu Zhang : zhangya@bu.edu
 - Feuyang Kang : fykang@bu.edu
-
-The authors are with the Departments of Mechanical Engineering, Electrical and Computer Engineering, and the Division of Systems Engineering at Boston University, Boston, MA 02115.
+- **The authors are with the Departments of Mechanical Engineering, Electrical and Computer Engineering, and the Division of Systems Engineering at Boston University, Boston, MA 02115.**
 
 ## Install
 ### Requirements

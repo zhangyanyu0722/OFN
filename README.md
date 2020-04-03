@@ -39,7 +39,7 @@ python3 example/ofn_origin.py
   <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/feature_matching.png">
 </p>
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/navigation.png"> 
+  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/navigation.png" height="300"> 
 </p>
 
 ## Resources

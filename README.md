@@ -31,11 +31,17 @@ cd optical-flow-navigation
 sudo python3 setup.py install
 ```
 ## Examples
-### In the ofn, we use the difference of mean of time-to-transit in the left half frame and in the right half frame to navigation.
+- In the ofn, we use the difference of mean of time-to-transit in the left half frame and in the right half frame to navigation. The use method example is showing in ```ofn_origin.py```.
 ```
 python3 example/ofn_origin.py
 ```
 
+- In the ofn_v2, we divided the left half frame and the right half frame into three parts, you can choose the parts you want.
+The use method example is showing in ```ofn_v2.py```.
+```
+python3 example/ofn_v2.py
+```
+## Results
 <p align="middle">
   <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/feature_matching.png">
 </p>
@@ -43,19 +49,17 @@ python3 example/ofn_origin.py
   <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/navigation.png" height="300" width="1000"> 
 </p>
 
-### In the ofn_v2, we divided the left half frame and the right half frame into three parts, you can choose the parts you want.
-
-```
-python3 example/ofn_v2.py
-```
-
 ## Resources
+- https://www.bu.edu/eng/profile/john-baillieul-ph-d-me-se/
+- https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
+- https://docs.opencv.org/3.4/db/d39/classcv_1_1DescriptorMatcher.html
+- https://docs.opencv.org/3.4/d3/da1/classcv_1_1BFMatcher.html
 
 ## License
 [MIT License]
 
 ## Updates
-- 4/1/2020 : 
+- 4/12/2020 : Update ofn and ofn_v2 
 
 [John Baillieul]:https://www.bu.edu/eng/profile/john-baillieul-ph-d-me-se/
 [MIT License]:https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/LICENSE

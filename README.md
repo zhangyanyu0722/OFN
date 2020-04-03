@@ -1,11 +1,11 @@
-# optical-flow-navigation
+# Optical Flow Navigation(OFN Algorithm)
 
 ![Build Status](https://img.shields.io/badge/python-3.6%7C3.7%7C3.8-red)
 ![Build Status](https://img.shields.io/badge/License-MIT-green)
 
 **In terms of [John Baillieul]'s recent research, we developed a new navigation algorithm using [optical flow]. We assume if a vehicle is moving in a straight line and some feature points lie somewhere ahead of the vehicle—possibly to the left or right in the environment, we can calculate the time-to-transit to those features. Then get the mean of time-to-transit in the left half frame and in the right half frame. In the final, we can use a rotation rate(k) to control the rotation.**
 
-For more information, [view here].
+**For more information, [view here].**
 
 ## Authors
 - [John Baillieul] : johnb@bu.edu

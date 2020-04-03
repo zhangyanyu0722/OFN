@@ -12,6 +12,8 @@ For more information, [view here].
 - Yanyu Zhang : zhangya@bu.edu
 - Feuyang Kang : fykang@bu.edu
 
+The authors are with the Departments of Mechanical Engineering, Electrical and Computer Engineering, and the Division of Systems Engineering at Boston University, Boston, MA 02115.
+
 ## Install
 ### Requirements
 ```
@@ -30,7 +32,7 @@ cd optical-flow-navigation
 ```
 sudo python3 setup.py install
 ```
-## [Examples]
+## Examples
 - In the ofn, we use the difference of mean of time-to-transit in the left half frame and in the right half frame to navigation. The use method example is showing in ```ofn_origin.py```.
 ```
 python3 example/ofn_origin.py
@@ -65,7 +67,6 @@ python3 example/ofn_v2.py
 [MIT License]:https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/LICENSE
 [optical flow]:https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
 [view here]:https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/papers/IFAC-Two-Pixel.pdf
-[Examples]:https://github.com/zhangyanyu0722/optical-flow-navigation/tree/master/example
 
 
 

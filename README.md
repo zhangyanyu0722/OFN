@@ -1,5 +1,6 @@
-# Optical Flow Navigation(OFN Algorithm)
+# Optical Flow Navigation(OFN)
 
+![Build Status](https://img.shields.io/appveyor/build/gruntjs/grunt)
 ![Build Status](https://img.shields.io/badge/python-3.6%7C3.7%7C3.8-red)
 ![Build Status](https://img.shields.io/badge/License-MIT-green)
 

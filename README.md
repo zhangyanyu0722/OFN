@@ -15,10 +15,10 @@ For more information, [view here].
 ## Install
 ### Requirements
 ```
-python 3.6/3.7/3.8
-opencv-contrib-python 4.2.0.32   
-opencv-python 4.2.0.32 
-numpy 1.18.1 
+python==3.6/3.7/3.8
+opencv-contrib-python==4.2.0.32   
+opencv-python==4.2.0.32 
+numpy==1.18.1 
 ```
 ### Quick Install
 ```
@@ -28,8 +28,19 @@ git clone https://github.com/zhangyanyu0722/optical-flow-navigation
 cd optical-flow-navigation
 ```
 ```
-sudo python setup.py install
+sudo python3 setup.py install
 ```
+## Examples
+In the ofn, we use the difference of mean of time-to-transit in the left half frame and in the right half frame to navigation.
+```
+python3 example/ofn_origin.py
+```
+<p align="middle">
+  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/feature_matching.png" width="400" />
+</p>
+<p align="middle">
+  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/navigation.png" width="400" /> 
+</p>
 
 ## Resources
 

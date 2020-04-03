@@ -1,7 +1,7 @@
 # Optical Flow Navigation(OFN)
 
 ![Build Status](https://img.shields.io/appveyor/build/gruntjs/grunt)
-![Build Status](https://img.shields.io/teamcity/build/s/IntelliJIdeaCe_JavaDecompilerEngineTests)
+![Build Status](https://img.shields.io/sonar/test_success_density/swellaby:azure-pipelines-templates?server=https%3A%2F%2Fsonarcloud.io)
 ![Build Status](https://img.shields.io/badge/python-3.6%7C3.7%7C3.8-red)
 ![Build Status](https://img.shields.io/badge/License-MIT-green)
 

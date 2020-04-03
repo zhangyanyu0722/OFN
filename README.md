@@ -40,9 +40,11 @@ python3 example/ofn_origin.py
   <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/feature_matching.png">
 </p>
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/navigation.png" height="300" length="1000"> 
+  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/navigation.png" height="300" width="1000"> 
 </p>
+
 ### In the ofn_v2, we divided the left half frame and the right half frame into three parts, you can choose the parts you want.
+
 ```
 python3 example/ofn_v2.py
 ```

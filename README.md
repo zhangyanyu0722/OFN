@@ -36,10 +36,10 @@ In the ofn, we use the difference of mean of time-to-transit in the left half fr
 python3 example/ofn_origin.py
 ```
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/feature_matching.png" width="400" />
+  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/feature_matching.png">
 </p>
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/navigation.png" width="400" /> 
+  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/navigation.png"> 
 </p>
 
 ## Resources

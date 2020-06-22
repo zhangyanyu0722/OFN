@@ -1,4 +1,4 @@
-# Optical Flow Navigation(OFN)
+# Motion Control Using Optical Flow (OFN algorithm)
 
 ![Build Status](https://img.shields.io/appveyor/build/gruntjs/grunt)
 ![Build Status](https://img.shields.io/sonar/test_success_density/swellaby:azure-pipelines-templates?server=https%3A%2F%2Fsonarcloud.io)

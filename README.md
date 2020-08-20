@@ -1,11 +1,11 @@
-# Motion Control using [Optical Flow] (OFN)
+# Motion Control using Optical Flow (OFN)
 
 ![Build Status](https://img.shields.io/appveyor/build/gruntjs/grunt)
 ![Build Status](https://img.shields.io/sonar/test_success_density/swellaby:azure-pipelines-templates?server=https%3A%2F%2Fsonarcloud.io)
 ![Build Status](https://img.shields.io/badge/python-3.6%7C3.7%7C3.8-red)
 ![Build Status](https://img.shields.io/badge/License-MIT-green)
 
-**This respository develops two algorithms to control the motion of vehicles using optical flow, which can detect the surrounding world frame by frame. The first algorithm is through tracking features in continuously updated sequences of frames using sparse optical flow, and using these feature tracks to calculate time-to-transit (τ) for the matched features as a feedback signal. Such signals can steer the robot vehicle by balancing average of τ in certain areas. The second algorithm uses dense optical flow by calculating the difference of flow vectors in two regions in one frame to generate a steering signal to control the robot.**
+**This respository develops two algorithms to control the motion of vehicles using [optical flow], which can detect the surrounding world frame by frame. The first algorithm is through tracking features in continuously updated sequences of frames using sparse optical flow, and using these feature tracks to calculate time-to-transit (τ) for the matched features as a feedback signal. Such signals can steer the robot vehicle by balancing average of τ in certain areas. The second algorithm uses dense optical flow by calculating the difference of flow vectors in two regions in one frame to generate a steering signal to control the robot.**
 
 ## Authors
 - Yanyu Zhang : zhangya@bu.edu
@@ -63,7 +63,7 @@ python3 example/ofn_v2.py
 - 4/12/2020 : Update ofn and ofn_v2 
 
 [MIT License]:https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/LICENSE
-[Optical Flow]:https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
+[optical flow]:https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
 
 
 

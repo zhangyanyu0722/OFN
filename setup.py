@@ -6,7 +6,7 @@ import sys
 from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
-NAME = 'ofn'
+NAME = 'optical flow navigation'
 DESCRIPTION = 'This respository develops two algorithms to\
                control the motion of vehicles using optical flow,\
                which can detect the surrounding world frame by frame.\
@@ -24,7 +24,7 @@ URL = 'https://github.com/zhangyanyu0722/OFN'
 EMAIL = 'zhangya@bu.edu'
 AUTHOR = 'Yanyu Zhang'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.0'
+VERSION = '1.0.0'
 REQUIRED = [
     'opencv-contrib-python>=4.2.0.32',
     'opencv-python>=4.2.0.32',
@@ -98,7 +98,7 @@ setup(
     url=URL,
     # packages=find_packages(),
     package_dir={'': 'src'},
-    packages=['ofn'],
+    packages=['optical flow navigation'],
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,

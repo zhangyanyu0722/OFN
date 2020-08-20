@@ -1,5 +1,5 @@
 # Copyright (c) 2020 Yanyu Zhang zhangya@bu.edu All rights reserved.
-from ofn import ofn, ofn_2, dof, sof
+from optical flow navigation import ofn, ofn_2, dof, sof
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 # Test optical flow navigation with two split areas
@@ -36,7 +36,6 @@ dof(video_name='test.mov',  # The address of video
 	                     # initial the "show_flow = T" before using it.
 	show_line = False,  # Show the boundary of walls based on flow vector.
 	norm = False,  # Using normalization to each pixel. (recommend using False)
-	show_col_flow = False,  #  Show the sum of flow vector in each column.
-	show_navg = False)  #  Using it to navagation
+	show_col_flow = False)  #  Show the sum of flow vector in each column.)
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------

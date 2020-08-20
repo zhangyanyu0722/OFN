@@ -6,9 +6,21 @@ import sys
 from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
-NAME = 'optical_flow_navigation'
-DESCRIPTION = 'This package is to use optical flow to navigation'
-URL = 'https://github.com/zhangyanyu0722/optical-flow-navigation'
+NAME = 'ofn'
+DESCRIPTION = 'This respository develops two algorithms to\
+               control the motion of vehicles using optical flow,\
+               which can detect the surrounding world frame by frame.\
+               The first algorithm is through tracking features in \
+               continuously updated sequences of frames using sparse \
+               optical flow, and using these feature tracks to calculate \
+               time-to-transit (τ) for the matched features as a feedback \
+               signal. Such signals can steer the robot vehicle by \
+               balancing average of τ in certain areas. \
+               The second algorithm uses dense optical flow by calculating \
+               the difference of flow vectors in two regions in one frame \
+               to generate a steering signal to control the robot.'
+
+URL = 'https://github.com/zhangyanyu0722/OFN'
 EMAIL = 'zhangya@bu.edu'
 AUTHOR = 'Yanyu Zhang'
 REQUIRES_PYTHON = '>=3.6.0'
@@ -16,7 +28,8 @@ VERSION = '0.1.0'
 REQUIRED = [
     'opencv-contrib-python>=4.2.0.32',
     'opencv-python>=4.2.0.32',
-    'numpy>=1.18.1'
+    'numpy>=1.18.1',
+    'matplotlib>=3.1.3'
 ]
 
 EXTRAS = {
@@ -85,7 +98,7 @@ setup(
     url=URL,
     # packages=find_packages(),
     package_dir={'': 'src'},
-    packages=['optical_flow_navigation'],
+    packages=['ofn'],
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,

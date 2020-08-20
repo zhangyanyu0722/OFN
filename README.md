@@ -22,10 +22,10 @@ numpy==1.18.1
 ```
 ### Quick Install
 ```
-git clone https://github.com/zhangyanyu0722/optical-flow-navigation
+git clone https://github.com/zhangyanyu0722/OFN
 ```
 ```
-cd optical-flow-navigation
+cd OFN
 ```
 ```
 sudo python3 setup.py install

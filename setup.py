@@ -6,7 +6,7 @@ import sys
 from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
-NAME = 'optical flow navigation'
+NAME = 'ofn'
 DESCRIPTION = 'This respository develops two algorithms to\
                control the motion of vehicles using optical flow,\
                which can detect the surrounding world frame by frame.\
@@ -98,7 +98,7 @@ setup(
     url=URL,
     # packages=find_packages(),
     package_dir={'': 'src'},
-    packages=['optical flow navigation'],
+    packages=['ofn'],
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,

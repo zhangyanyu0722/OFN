@@ -59,9 +59,6 @@ python3 example/ofn_v2.py
 ## License
 [MIT License]
 
-## Updates
-- 4/12/2020 : Update ofn and ofn_v2 
-
 [MIT License]:https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/LICENSE
 [optical flow]:https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
 

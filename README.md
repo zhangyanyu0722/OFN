@@ -31,21 +31,24 @@ cd OFN
 sudo python3 setup.py install
 ```
 ## Examples
-- In the ```example/ofn_test.py```, there are four testing example for these two algorithms. In order to run the code, you need to uncommend anyone of them.
 
-### Test optical flow navigation with two split areas or six slipt areas, you need to uncommand the ```ofn``` and ```ofn_2``` section.
+### For the first algorithm, which through tracking features in continually updated frames using sparse optical flow. The difference of τ in left-half frame and τ in right-half frame can be calculated and quantified as the steering signal.
 
-<p align="middle">
-  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/ofn.gif"> 
-</p>
-
-### Test the sparse optical flow: you need to uncommand the ```sof``` section.
+- Firstly, we choose 300 feature points in the initial frame, and keep tracking them in the following frames, the result is showing below: (To run the code, you need to uncommand the ```sof``` section in ```ofn_test.py``` )
 
 <p align="middle">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/sof.gif">
 </p>
 
-### Test the dense optical flow: you need to uncommand the ```dof``` section.
+- Secondly, the motion control using sparse optical flow is implemented below, you can get the steering signal here: (To run the code, you need to uncommand the ```ofn``` or ```ofn_2``` section in ```ofn_test.py``` )
+
+<p align="middle">
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/ofn.gif"> 
+</p>
+
+### For the second algorithm, which through tracking all pixels in continually updated frames using dense optical flow. The difference of τ in left-half frame and τ in right-half frame can be calculated and quantified as the steering signal.
+
+- In order to test the dense optical flow: you need to uncommand the ```dof``` section in ```ofn_test.py``` . The results are showing below:
 
 <p align="middle">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/boundary.gif">

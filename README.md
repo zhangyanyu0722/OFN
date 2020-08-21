@@ -42,12 +42,17 @@ The use method example is showing in ```ofn_v2.py```.
 python3 example/ofn_v2.py
 ```
 ## Results
-![](https://github.com/zhangyanyu0722/OFN/blob/master/images/sof.gif)
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/feature_matching.png">
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/sof.gif">
 </p>
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/images/navigation.png" height="300" width="1000"> 
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/boundary.gif"> 
+</p>
+<p align="middle">
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/magnitude_flow.gif">
+</p>
+<p align="middle">
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/ofn.gif"> 
 </p>
 
 ## Resources

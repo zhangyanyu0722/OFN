@@ -32,15 +32,21 @@ sudo python3 setup.py install
 ```
 ## Examples
 - In the ```example/ofn_test.py```, there are four testing example for these two algorithms. In order to run the code, you need to uncommend anyone of them.
+
 ### Test optical flow navigation with two split areas or six slipt areas, you need to uncommand the ```ofn``` and ```ofn_2``` section.
+
 <p align="middle">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/ofn.gif"> 
 </p>
+
 ### Test the sparse optical flow: you need to uncommand the ```sof``` section.
+
 <p align="middle">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/sof.gif">
 </p>
+
 ### Test the dense optical flow: you need to uncommand the ```dof``` section.
+
 <p align="middle">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/boundary.gif">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/magnitude_flow.gif">

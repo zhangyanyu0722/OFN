@@ -51,8 +51,8 @@ sudo python3 setup.py install
 - In order to test the dense optical flow: you need to uncommand the ```dof``` section in ```ofn_test.py``` . The results are showing below:
 
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/boundary.gif" height="200" width="300">
-  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/magnitude_flow.gif" height="200" width="300">
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/boundary.gif" height="200" width="400">
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/magnitude_flow.gif" height="200" width="400">
 </p>
 
 ## Resources

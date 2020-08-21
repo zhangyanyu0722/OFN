@@ -37,13 +37,13 @@ sudo python3 setup.py install
 - Firstly, we choose 300 feature points in the initial frame, and keep tracking them in the following frames, the result is showing below: (To run the code, you need to uncommand the ```sof``` section in ```ofn_test.py``` )
 
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/sof.gif">
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/sof.gif" height="200" width="400">
 </p>
 
 - Secondly, the motion control using sparse optical flow is implemented below, you can get the steering signal here: (To run the code, you need to uncommand the ```ofn``` or ```ofn_2``` section in ```ofn_test.py``` )
 
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/ofn.gif"> 
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/ofn.gif" height="200" width="400"> 
 </p>
 
 ### For the second algorithm, which through tracking all pixels in continually updated frames using dense optical flow. The difference of τ in left-half frame and τ in right-half frame can be calculated and quantified as the steering signal.
@@ -66,9 +66,3 @@ sudo python3 setup.py install
 
 [MIT License]:https://github.com/zhangyanyu0722/optical-flow-navigation/blob/master/LICENSE
 [optical flow]:https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
-
-
-
-
-
-

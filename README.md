@@ -22,13 +22,13 @@ numpy==1.18.1
 ```
 ### Quick Install
 ```
-git clone https://github.com/zhangyanyu0722/OFN // Or download this repository and unzip it
+git clone https://github.com/zhangyanyu0722/OFN  %% Or download this repository and unzip it
 ```
 ```
 cd OFN 
 ```
 ```
-sudo python3 setup.py install // Install package
+sudo python3 setup.py install %% Install package
 ```
 ## Examples
 

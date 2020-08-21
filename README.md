@@ -21,14 +21,14 @@ opencv-python==4.2.0.32
 numpy==1.18.1 
 ```
 ### Quick Install
+```python
+git clone https://github.com/zhangyanyu0722/OFN  # Or download this repository and unzip it
 ```
-git clone https://github.com/zhangyanyu0722/OFN  #Or download this repository and unzip it
-```
-```
+```python
 cd OFN 
 ```
-```
-sudo python3 setup.py install #Install package
+```python
+sudo python3 setup.py install # Install package
 ```
 ## Examples
 

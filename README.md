@@ -31,28 +31,19 @@ cd OFN
 sudo python3 setup.py install
 ```
 ## Examples
-- In the ofn, we use the difference of mean of time-to-transit in the left half frame and in the right half frame to navigation. The use method example is showing in ```ofn_origin.py```.
-```
-python3 example/ofn_origin.py
-```
-
-- In the ofn_v2, we divided the left half frame and the right half frame into three parts, you can choose the parts you want.
-The use method example is showing in ```ofn_v2.py```.
-```
-python3 example/ofn_v2.py
-```
-## Results
+- In the ```example/ofn_test.py```, there are four testing example for these two algorithms. In order to run the code, you need to uncommend anyone of them.
+### Test optical flow navigation with two split areas or six slipt areas, you need to uncommand the ```ofn``` and ```ofn_2``` section.
+<p align="middle">
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/ofn.gif"> 
+</p>
+### Test the sparse optical flow: you need to uncommand the ```sof``` section.
 <p align="middle">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/sof.gif">
 </p>
+### Test the dense optical flow: you need to uncommand the ```dof``` section.
 <p align="middle">
-  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/boundary.gif"> 
-</p>
-<p align="middle">
+  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/boundary.gif">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/magnitude_flow.gif">
-</p>
-<p align="middle">
-  <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/ofn.gif"> 
 </p>
 
 ## Resources

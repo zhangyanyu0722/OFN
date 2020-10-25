@@ -55,7 +55,7 @@ sudo python3 setup.py install # Install package
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/magnitude_flow.gif" height="200" width="400">
 </p>
 
-## Implement in ROS on a ClearPath Jackal robot
+## Implement in ROS on a [ClearPath Jackal](http://www.clearpathrobotics.com/assets/guides/kinetic/jackal/) robot
 <p align="middle">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/111.gif" height="200" width="400">
   <img src="https://github.com/zhangyanyu0722/OFN/blob/master/images/222.gif" height="200" width="400">

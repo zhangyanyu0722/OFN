@@ -2,7 +2,7 @@
 
 **This respository develops two algorithms to control the motion of vehicles using [optical flow], which can detect the surrounding world frame by frame. The first algorithm is through tracking features in continuously updated sequences of frames using sparse optical flow, and using these feature tracks to calculate time-to-transit (τ) for the matched features as a feedback signal. Such signals can steer the robot vehicle by balancing average of τ in certain areas. The second algorithm uses dense optical flow by calculating the difference of flow vectors in two regions in one frame to generate a steering signal to control the robot.**
 
-[Youtube](https://www.youtube.com/playlist?list=PLy6fi-dsDk__jyR8N-OBCy4uzvsWK4BGv)
+[[Youtube]](https://www.youtube.com/playlist?list=PLy6fi-dsDk__jyR8N-OBCy4uzvsWK4BGv)
 
 ## Authors
 - Yanyu Zhang : zhangya@bu.edu
